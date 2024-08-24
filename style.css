@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;/* Aligns items vertically in the center */
+    flex-wrap: wrap; /* Allows wrapping of elements in the container */
+    width: 500px;
+    margin: 100px auto;
+    background-color: #1B244A;
+    border-radius: 5px;
+    padding: 20px; /* Added padding for spacing inside the container */
+}
+
+.home-title, .guest-title {
+    color: #EEEEEE;
+    text-align: center;
+    font-size: 50px;
+}
+
+#home-count, #guest-count {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #F94F6D;
+    background-color: #080001;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    margin: 0 30px;
+    padding: 10px;
+    font-size: 120px;
+    border-radius: 5px;
+}
+
+.increment-btn {
+    display: flex;
+    margin: 30px 30px;
+}
+
+.increment-btn button {
+    border: 1px solid #9AABD8;
+    color: #9AABD8;
+    background-color: transparent;
+    margin-left: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px; /* Adjusted font size for better readability */
+}
+
+.increment-btn button:hover {
+    cursor: pointer;
+    background-color: #9AABD8; /* Added background change on hover */
+    color: #1B244A; /* Text color change on hover */
+}
+
+.btn-reset {
+    width: 100%; /* Takes full width of the container */
+    text-align: center; /* Centers the button horizontally */
+    margin-top: 20px; /* Adds space above the button */
+}
+
+.btn-reset button {
+    border: 1px solid #F94F6D;
+    color: #F94F6D;
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btn-reset button:hover {
+    background-color: #F94F6D;
+    color: #080001;
+}
